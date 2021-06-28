@@ -1,14 +1,12 @@
 # Getting Started with Edeka-Angebote
 
 This project is a simple frontend for the edeka-angebote react component. 
-It needs a very simple backend to pass api request as edeka messed the allow control origin header up.
+It needs a very simple node server to pass api request because edeka has some weird `Access-Control-Allow-Origin` headers.
 
 ## Use Edeka-Angebote
 
 Open Website `<host>/?market=<marketId>`.
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -23,11 +21,6 @@ Runs the backend server on [port 3001](http://localhost:3001).
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
